@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0 0;
+}
+
+
+.main-section {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(315deg, rgba(0,0,0,1) 22%, rgba(29,32,32,1) 51%, rgba(129,135,134,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: 'center center';
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-section > .left-side {
+    align-items: left;
+    padding: 50px;
+    padding-right: -100px;
+}
+
+.main-section > .left-side h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main-section > .left-side h2 {
+    font-family: sans Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.main-section > .left-side > .buttons {
+    display: flex;
+    align-content: left;
+    font-family: sans-serif;
+}
+
+.main-section > .left-side > .buttons > .green-button {
+    text-align: center;
+    background-color: green;
+    color: rgb(16, 15, 15);
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.main-section > .left-side > .buttons > .learn-more-button {
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+
+.main-section > .right-side {
+    padding: 50px;
+}
+
+.main-section > .right-side p {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main-section > .right-side a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+
+.main-section > .right-side img {
+    float: right;
+    margin-bottom: 0px;
+    size: 500px;
+    vertical-align:bottom;
+}

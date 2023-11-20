@@ -1,0 +1,24 @@
+
+.footer {
+    background-color: #333; 
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.footerWrapper > .footer-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.footerWrapper > .footer-buttons > .btn {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    width: auto;
+    align-items: center;
+    padding: 25px 20px; 
+    border: 1px solid rgb(71, 67, 67);
+    background-color: #333;
+}
